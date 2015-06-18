@@ -1,0 +1,73 @@
+Question:
+How did viewing a diff between two versions of a file 
+help you see the bug that was introduced?
+
+Answer:
+I showed only the changed lines and their vicinity,
+so it was easy to spot the differences.
+
+Question:
+How could having easy access to the entire history of a file 
+make you a more efficient programmer in the long term?
+
+Answer:
+You can startoff from an older version or compare any history versions.
+
+Own notes:
+One Commit per Logical Change Solution
+Two small bugs in different functions constitute two different logical changes.
+
+Question:
+What do you think are the pros and cons of manually choosing
+when to create a commit, like you do in Git, vs having versions
+automatically saved, like Google docs does?
+
+Answer:
+Pros:
+* History doesn't get too cluttered.
+* History doesn't get syntactically broken.
+* It forces you to stay focused on the issue you are working on,
+  and not get distracted with other things.
+
+Cons:
+* You always need to think when it is good to commit.
+* You might want to do a (small) change/fix in a place
+  not related to the issue you are otherwise dealing with.
+  As the small change constitute a separate logic entity,
+  you need to keep in mind to do it later, which you can forget,
+  or you may simply lose the nice idea you had about it.
+
+Question:
+Why do you think some version control systems, like Git,
+allow saving multiple files in one commit, while others,
+like Google Docs, treat each file separately?
+
+Answer
+Because they serve different purpose.
+Synch between changes around a bunch of loosly related text documents
+is unlikely to be of importance.
+While code components need to stay in correctly linked to each other.
+
+Question:
+How can you use the commands git log and git diff to view the history of files?
+
+Answer:
+git log
+Displays newest-to-oldest top-to-bottom
+
+git diff older_id newer_id
+
+Question
+How might using version control make you more confident
+to make changes that could break something?
+
+Answer
+* You always have a previous working copy
+  no matter how yo mess up the current one.
+* You can go back in time to find where a change/bug was introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+* Software versioning system in plan8
+* Software versioning system for my own projects
+
+
