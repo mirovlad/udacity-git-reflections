@@ -1,0 +1,15 @@
+Q:
+What happens when you initialize a repository? Why do you need to do it?
+
+A:
+Git creates metadata and is prepared to store commits.
+You need it in ortder to be able to do the first commit.
+
+Q:
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+A:
+It's a temporary place you can group logically related things
+that constitute a group worth to combine as a single commit,
+and assign a corresponding description message to it.
