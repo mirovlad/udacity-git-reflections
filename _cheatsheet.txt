@@ -1,0 +1,11 @@
+#clone a whole repository
+git clone https://github.com/udacity/asteroids.git
+
+#see commits
+git log
+
+#compare two commits
+git diff 18b3f7cc65c715b97cafa908d788c1dc2738c318 e2ecf58fe6175e31515c2c67d710cb73494b6a31
+
+#going temporarily back to a previous commit
+git checkout 
