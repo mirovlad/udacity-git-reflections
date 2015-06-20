@@ -1,0 +1,9 @@
+Q:
+When would you want to use a remote repository
+rather than keeping all your work local?
+
+A:
+It can allow you to collaborate with other people,
+committing into the same remote, and to collaborate
+with yourseld working from different stations,
+comitting to same remote.
