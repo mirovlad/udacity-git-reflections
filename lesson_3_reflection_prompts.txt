@@ -7,3 +7,38 @@ It can allow you to collaborate with other people,
 committing into the same remote, and to collaborate
 with yourseld working from different stations,
 comitting to same remote.
+
+Q:
+Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+A:
+Fork is copying a GutHub repository to a new one.
+Clone is copying a repository from a GitHub
+or another source repository to a local place.
+Branches are chains of commits within a repository.
+
+Q:
+What is the benefit of having a copy of the last known state
+of the remote stored locally?
+
+A:
+You can adjust your changes to fit any conflicting changes
+that happened on the remote after your previously pulled
+data from it.
+
+Q:
+How would you collaborate without using Git or GitHub?
+What would be easier, and what would be harder?
+
+A:
+Easier, but harder :D :D :D
+
+Q:
+When would you want to make changes in a separate branch
+rather than directly in master?
+What benefits does each approach have?
+
+A:
+Experimental or a larger change that needs more time to implement
+and opinions collected before merging it into the main branch.

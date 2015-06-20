@@ -8,4 +8,29 @@ git log
 git diff 18b3f7cc65c715b97cafa908d788c1dc2738c318 e2ecf58fe6175e31515c2c67d710cb73494b6a31
 
 #going temporarily back to a previous commit
-git checkout 
+git checkout commitID
+
+git log --graph
+git log --graph --oneline
+git log --graph --oneline [branch1] [branch2]
+
+#diff against commit's parrent
+git show [commitID]
+
+#forget about the coins branch
+git branch -d coins
+
+#See just 1 line of git log
+git log -n1
+
+
+git remote
+
+git remote add [originLabel] [resourceReference]
+
+
+git fetch origin/master
++
+git merge origin/master master
+=
+git pull origin master

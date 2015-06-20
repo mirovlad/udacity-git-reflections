@@ -13,3 +13,45 @@ A:
 It's a temporary place you can group logically related things
 that constitute a group worth to combine as a single commit,
 and assign a corresponding description message to it.
+
+Q:
+How can you use the staging area to make sure you have one commit per logical change?
+
+A:
+You add to the staging area only files that contain the changes related to a single
+logical change.
+Which also implies that in a single file you only should make changes
+per a single logical change and delay any other changes,
+even if they are quick and easy.
+
+Q:
+What are some situations when branches would be helpful
+in keeping your history organized? How would branches help?
+
+A:
+Have an experimental feature or flaour of the original code.
+
+Q:
+How do the diagrams help you visualize the branch structure?
+
+A:
+They viasually show the banches, their nodes and parents.
+
+Q:
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+A:
+The changes are merged and commits appear in the log interleaved,
+ordered by time.
+
+Q:
+What are the pros and cons of Git’s automatic merging
+vs. always doing merges manually?
+
+A:
+It saves from boring tasks and automates it, which will usually
+do the job safer than if you did it manually.
+Still, git might judge incorrectly about the automatic merge.
+I guess the general balance is to have git do th automatic merge
+and call to human attention only on more complicated tasks.
